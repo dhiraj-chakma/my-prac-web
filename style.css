@@ -1,0 +1,60 @@
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 30px;
+}
+h1 {
+  font-size: 50px;
+}
+.header {
+  display: flex;
+  margin: 25px;
+  padding: 20px;
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
+.middle {
+  display: flex;
+  margin: 25px;
+  padding: 20px;
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.header p,
+.middle p {
+  margin-bottom: 30px;
+}
+.half-width {
+  width: 50%;
+}
+.half-width img {
+  width: 80%;
+}
+a {
+  text-decoration: none;
+  background-color: #fb8500;
+  padding: 14px 25px;
+  border-radius: 10px;
+  color: #f4f1de;
+}
+.orange {
+  color: #dc2f02;
+}
+
+#exp {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.experience {
+  margin: 25px;
+  padding: 20px;
+  display: flex;
+}
+.experience-half {
+  width: 50%;
+}
+
+footer {
+  text-align: center;
+}
